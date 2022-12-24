@@ -86,7 +86,8 @@ DATABASES = {
         "PORT": os.environ.get("PG_PORT"),
         "HOST": os.environ.get("PG_HOST"),
         "USER": os.environ.get("PG_USER"),
-        "PASSWORD": os.environ.get("PG_PASS")
+        "PASSWORD": os.environ.get("PG_PASS"),
+        "CONN_MAX_AGE": 60
     }
 }
 
